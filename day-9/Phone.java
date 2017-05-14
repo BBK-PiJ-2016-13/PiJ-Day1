@@ -1,7 +1,7 @@
 /**
 * A phone makes calls
 */
-public interface Phone {
+public interface Phone<P> {
 	/**
 	 * Just print on the screen: "Calling <number>...".
 	 */

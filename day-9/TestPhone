@@ -1,0 +1,3 @@
+public class void testPhone(Phone phone) {
+	private Phone phone;
+	}

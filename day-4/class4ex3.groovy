@@ -30,7 +30,7 @@ class Converter {
 	}
 }
 Converter converter = new Converter();
-println "Select and option: "
+println "Select an option: "
 println "1: Convert a binary number to decimal"
 println "2: Convert a decimal number to binary"
 String str1 = System.console().readLine()

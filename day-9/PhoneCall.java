@@ -42,12 +42,15 @@ public class PhoneCall {
 		mobile.printLastNumbers();
 		System.out.println(mobile.getBrand());
 
-		// smart
-		SmartPhone smart = new SmartPhone("Huawei");
-		System.out.println(smart.getBrand());
-		smart.browseWeb("www.google.com");
-		smart.findPosition();
-		smart.call("111");
-		smart.call("00987654");
+		// myPhone
+		MobilePhone<Phone> myPhone = new SmartPhone<Phone>("Huawei");
+		System.out.println(myPhone.getBrand());
+		myPhone.browseWeb("www.google.com");
+		myPhone.findPosition();
+		myPhone.call("111");
+		myPhone.call("00987654");
+
+		TestPhone myPhone = new TestPhone(myPhone);
+		TestPhone.call("111");
 	}
 }

@@ -1,0 +1,30 @@
+//Coursework 3 notes
+//arraylist inside
+//write contact manager out import java.io.Serializable;
+//import java.util.ArrayList
+//ObjectInputOutputStream main()
+//open FileOutputStream, write to _.out
+//wrap in ObjectOutputStream
+//write output as writeObject
+//then flush it
+//use catch Exception e
+//read it back like a mirror
+//file output stream, obj output stream
+//readObject and cast to correct type : x = x(ois.readObject())
+//can do as object, or text, or XML and use XML reader to reconstitute
+
+//"add" method
+//implements Serializable {} a marker interface, objects written out using serialisation
+//read it in java.io.Serializable
+//if isValidNumber () {}
+//java runtime will reconstitute it
+//can start using IDEs - intelliJ or Eclipse or Netbeans or Android Development Studio
+
+//.out files are in byte code, have reference to classes
+
+//impl(implementations), spec(interface), test(tests) - optional breakdown to 3 packages
+//in three weeks consider coursework 4, actually quite small piece of work
+//must understand large hunk of legacy code to work with
+//findbugs and thing-style, and then human review too
+//they'll publish tests and spec to follow, not impl, must do TDD
+//when do future meetings actually migrate, upon open, or batch daily, base it on tests

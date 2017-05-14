@@ -1,4 +1,4 @@
-public class OldPhone implements Phone {
+public class OldPhone<P> implements Phone<P> {
 	private String number;
 	protected String brand = null;
 
